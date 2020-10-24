@@ -9,9 +9,9 @@ public class MySQLManager {
     public static void connect(String database, String username, String password) {
         if (con == null) {
             try {
-                con = DriverManager.getConnection("jdbc:mysql//" + database, username, password);
-            } catch (SQLException throwables) {
-                throwables.printStackTrace();
+                con = DriverManager.getConnection(database, username, password);
+            } catch (SQLException e) {
+                e.printStackTrace();
             }
         }
     }
