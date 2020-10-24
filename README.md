@@ -10,8 +10,11 @@ Changelogs
 - Empty
 
 # Functionalities
-#### Moderation
+Moderation
+----------
 
-#### Utilities
+Utilities
+---------
 
-#### Fun
+Fun
+---
