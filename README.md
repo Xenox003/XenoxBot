@@ -1,10 +1,14 @@
 # General Information
-#### Todo
+Todo
+----
 - Add Command Manager
 - Add MySQL Manager
 - Add first basic Commands
-#### Changelogs
+
+Changelogs
+----------
 - Empty
+
 # Functionalities
 #### Moderation
 
