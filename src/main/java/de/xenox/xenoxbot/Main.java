@@ -1,5 +1,6 @@
 package de.xenox.xenoxbot;
 
+import de.xenox.xenoxbot.listener.MessageListener;
 import net.dv8tion.jda.api.JDA;
 import net.dv8tion.jda.api.JDABuilder;
 import net.dv8tion.jda.api.entities.Activity;
@@ -17,6 +18,7 @@ public class Main {
             //Presence
             jda.getPresence().setActivity(Activity.playing("@XenoxBot for help!"));
             //EventListeners
+            jda.addEventListener(new MessageListener());
         }catch (LoginException e) {
             e.printStackTrace();
         }
