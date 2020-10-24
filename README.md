@@ -6,6 +6,8 @@ XenoxBot is my first big Application built with <a href="https://github.com/DV8F
 This bot is made for simple Moderation and Fun applications!
 XenoxBot supports awesome features like leveling.
 
+*Note: Levelling isn't supported yet!*
+
 Todo
 ----
 - Add Command Manager
