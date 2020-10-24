@@ -13,7 +13,7 @@ public class Main {
     public static void main(String[] args) {
         MySQLManager.connect("jdbc:mysql://localhost:3306/XenoxBot", "IO", "testing");
 
-        startJDA("NjUwNDQ1NzAyMjQwOTI3NzU1.XeLcxA.JA_Do_fsahaLueVYpk-B-rchXTs");
+        startJDA("UR MOM");
     }
 
     public static void startJDA(String token) {
