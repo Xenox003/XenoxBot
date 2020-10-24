@@ -21,8 +21,8 @@ public class MySQLManager {
                 con.close();
                 con = null;
                 statement = null;
-            } catch (SQLException throwables) {
-                throwables.printStackTrace();
+            } catch (SQLException e) {
+                e.printStackTrace();
             }
         }
     }
