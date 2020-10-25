@@ -2,7 +2,6 @@ package de.xenox.xenoxbot.manager;
 
 import de.xenox.xenoxbot.commands.InfoCommand;
 import de.xenox.xenoxbot.commands.types.ServerCommand;
-import de.xenox.xenoxbot.entities.Command;
 import net.dv8tion.jda.api.entities.Member;
 import net.dv8tion.jda.api.entities.Message;
 import net.dv8tion.jda.api.entities.TextChannel;
